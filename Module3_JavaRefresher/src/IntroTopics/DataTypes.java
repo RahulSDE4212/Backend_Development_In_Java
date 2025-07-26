@@ -2,7 +2,7 @@ package IntroTopics;
 
 public class DataTypes {
     public static void main(String[] args) {
-        /******  To represent Whole number we use following data types
+        /* *****  To represent Whole number we use following data types
          * 1) byte (1 byte memory)
          * 2) short(2 byte memory)
          * 3) int (4 byte memory)
@@ -33,7 +33,7 @@ public class DataTypes {
 //        long res = a + b;
 //        System.out.println(res);
 
-        /******  To represent decimal number we use following data types
+        /* *****  To represent decimal number we use following data types
          * 1) float (4 byte memory)
          * 2) double(8 byte memory)
          */
@@ -50,13 +50,13 @@ public class DataTypes {
         System.out.println(f - g);
 
 
-        /******  To represent character we use following data types
+        /* *****  To represent character we use following data types
          * 1) char (2 byte memory)
          */
         char ch = 'a';
         System.out.println(ch);
 
-        /******  To represent true/false we use following data types
+        /* *****  To represent true/false we use following data types
          * 1) boolean (1 byte memory)
          */
         boolean b = true;
