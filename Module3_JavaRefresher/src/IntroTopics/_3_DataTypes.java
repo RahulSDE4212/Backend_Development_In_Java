@@ -1,6 +1,6 @@
 package IntroTopics;
 
-public class DataTypes {
+public class _3_DataTypes {
     public static void main(String[] args) {
         /* *****  To represent Whole number we use following data types
          * 1) byte (1 byte memory)

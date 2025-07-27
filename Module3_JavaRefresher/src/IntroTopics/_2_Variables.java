@@ -1,6 +1,6 @@
 package IntroTopics;
 
-public class Variables {
+public class _2_Variables {
     public static void main(String[] args) {
         int speedLimit = 34;
         System.out.println(speedLimit);
