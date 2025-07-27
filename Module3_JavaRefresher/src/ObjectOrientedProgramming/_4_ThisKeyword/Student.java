@@ -14,6 +14,7 @@ public class Student {
     }
 
     Student(String name) {
+        // It calls the desired constructor mapped with the arguments given
         this(name, 18, 12, "b-113 sector 40 noida");
     }
 
