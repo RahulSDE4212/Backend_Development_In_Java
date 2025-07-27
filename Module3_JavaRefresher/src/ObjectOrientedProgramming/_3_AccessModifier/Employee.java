@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package ObjectOrientedProgramming._3_AccessModifier;
 
 public class Employee {
     protected int id;

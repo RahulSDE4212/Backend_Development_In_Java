@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package ObjectOrientedProgramming._1_ClassesAndObjects;
 
 class Bicycle {
     private String name;

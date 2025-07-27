@@ -1,6 +1,6 @@
-package IntroTopics;
+package ObjectOrientedProgramming._1_ClassesAndObjects;
 
-import ObjectOrientedProgramming.Employee;
+import ObjectOrientedProgramming._3_AccessModifier.Employee;
 
 public class Lamp {
     boolean isOn = false;

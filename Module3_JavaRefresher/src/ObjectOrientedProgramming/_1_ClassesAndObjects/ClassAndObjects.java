@@ -1,6 +1,5 @@
-package ObjectOrientedProgramming;
+package ObjectOrientedProgramming._1_ClassesAndObjects;
 
-import IntroTopics.*;
 public class ClassAndObjects {
     public static void main(String[] args) {
         Bicycle mountain2Bicycle = new Bicycle("decath", 8000, "red");

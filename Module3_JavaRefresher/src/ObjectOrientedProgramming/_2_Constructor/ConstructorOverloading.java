@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package ObjectOrientedProgramming._2_Constructor;
 
 public class ConstructorOverloading {
     static class Main {
@@ -7,12 +7,15 @@ public class ConstructorOverloading {
         String address;
         int id;
 
+        // No-Argument Constructor
         Main() {
             age = 18;
             name = "unknown";
             address = "not known";
             id = 0;
         }
+
+        // Paramterized Constructor
         Main(int age, String name) {
             this.age = age;
             this.name = name;
