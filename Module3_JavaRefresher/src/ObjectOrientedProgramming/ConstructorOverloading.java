@@ -1,6 +1,6 @@
 package ObjectOrientedProgramming;
 
-public class _4_ConstructorOverloading {
+public class ConstructorOverloading {
     static class Main {
         int age;
         String name;

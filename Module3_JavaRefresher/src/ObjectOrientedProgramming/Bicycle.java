@@ -1,11 +1,11 @@
 package ObjectOrientedProgramming;
 
-class _2_Bicycle {
+class Bicycle {
     private String name;
     private int price;
     private String color;
 
-    public _2_Bicycle(String name, int price, String color) {
+    public Bicycle(String name, int price, String color) {
         this.name = name;
         this.price = price;
         this.color = color;
