@@ -1,6 +1,6 @@
 package Lesson2_OpenClosePrinciple.Example1.ProblematicCode;
 
-public enum NotificationType {
+public enum  NotificationType {
 
     SMS,
     EMAIL,
@@ -17,5 +17,4 @@ public enum NotificationType {
     public void sendWhatsappNotification() {
         System.out.println("Sending Whatsapp");
     }
-
 }
