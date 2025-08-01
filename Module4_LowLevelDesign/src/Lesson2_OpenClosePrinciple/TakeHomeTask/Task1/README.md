@@ -159,41 +159,6 @@ Now main code trusts the **abstraction (strategy)**, not the detail.
 
 ---
 
-## 🔍 5. Liskov Substitution Principle (LSP) — Recap
-
-**✅ What LSP means:**
-"If something works with a parent class or interface, it should work with any of its children."
-
-**🧠 Real-life Analogy:**
-You have a universal USB-C charger. You expect it to work with any phone that supports USB-C.
-
-**❌ Violation in your code:**
-Hardcoded logic:
-
-```java
-if (product.getType() == ProductType.ELECTRONICS) { ... }
-```
-
-You're not substituting; you're hardcoding logic per case.
-
-**✅ LSP-friendly version:**
-
-```java
-interface DiscountStrategy {
-    double calculateDiscount(Product product);
-}
-
-DiscountStrategy strategy = new ClothingDiscountStrategy();
-strategy.calculateDiscount(product);
-```
-
-**✅ Bottom Line:**
-
-* ❌ Tightly glued to specific cases
-* ✅ Easily swappable logic with consistent interface
-
----
-
 ## 🔍 6. Strategy Design Pattern
 
 **✅ What it means:**
