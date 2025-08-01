@@ -1,6 +1,6 @@
 package Lesson2_OpenClosePrinciple.TakeHomeTask.Task1.ProblematicCode;
 
- enum ProductType {
+enum ProductType {
     ELECTRONICS,
      CLOTHING;
 }
@@ -8,7 +8,7 @@ package Lesson2_OpenClosePrinciple.TakeHomeTask.Task1.ProblematicCode;
 class Product {
     ProductType type;
     double price;
-     double getPrice() {
+    double getPrice() {
          return price;
      }
 
