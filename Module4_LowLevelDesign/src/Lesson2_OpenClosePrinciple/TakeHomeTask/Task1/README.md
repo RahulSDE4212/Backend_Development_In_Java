@@ -159,7 +159,7 @@ Now main code trusts the **abstraction (strategy)**, not the detail.
 
 ---
 
-## 🔍 6. Strategy Design Pattern
+## 🔍 5. Strategy Design Pattern
 
 **✅ What it means:**
 "Put different behaviors (strategies) in separate classes — and pick the one you want at runtime."
